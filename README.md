@@ -7,7 +7,7 @@ This line is added from Repl.it.
 This branch will be pushed to the repoistory as a new branch.
 You can add anything here to test it. 
 
-##Usage 
+## Usage 
 
 Run this command to execute the appplication:
 'python filename.py'
