@@ -3,11 +3,20 @@ This repository contains my pre-work project for the Elite 101 Course at Code2Co
 The pre-work is a python chatbot.
 This line is added from Repl.it.
 
-# This Section is added to the new branch
-This branch will be pushed to the repoistory as a new branch.
-You can add anything here to test it. 
+# Introduction
 
-## Usage 
 
-Run this command to execute the appplication:
-'python filename.py'
+This is a repository created by *Mohammed*
+
+
+## Usage
+
+
+Run this command to execute the application:
+
+
+`python filename.py`
+
+ 
+
+```
