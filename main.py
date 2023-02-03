@@ -20,12 +20,18 @@ def appeal_ban():
   while True:
     try:
       email = input("SB: In order to Appeal your account, we will need your email associated with your account. Type your email. \n")
+      if not ('@' in email and '.' in email.split('@')[1]):
+        print("Invalid email format. Please enter a valid email.")
+        continue
       break
     except ValueError:
       print("Invalid input. Please enter a valid email.")
   typing()
   print(f'SB: A verification code has been sent to {email}. We will continue the process after your verification. \n')
   appeal = input('Explain why you should be unbanned. \n')
+  if not appeal:
+    print("Please provide a reason for the appeal.")
+    return
   typing()
 
   transcript = f'Here is your recorded response below. Explain why you should be unbanned: {appeal}'
